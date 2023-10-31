@@ -1,0 +1,25 @@
+const Carro = require("./Carro")
+const Moto = require("./Moto")
+
+const gtr = new Carro(315, 'Nissan', 'GTR', 2007)
+const supra = new Carro(285, 'Toyota', 'Supra', 2002)
+const r1250 = new Moto(210, 'BMW', 'R 1250', 2023)
+
+gtr.acelerar()
+gtr.ligar()
+gtr.acelerar()
+gtr.acelerar()
+gtr.freiar()
+gtr.getInfos()
+
+supra.acelerar()
+supra.acelerar()
+supra.ligar()
+supra.freiar()
+supra.getInfos()
+
+r1250.ligar()
+r1250.acelerar()
+r1250.acelerar()
+r1250.freiar()
+r1250.getInfos()
